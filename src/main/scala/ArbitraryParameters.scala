@@ -15,10 +15,4 @@ object ArbitraryParameters {
         s"${message} is ${numbers.sum}"
     }
 
-
-    /*@main def run(xs: Int*): Unit =
-        println(s"Received ${xs.length} parameters: ${xs.mkString(", ")}")*/
-
-    /*@main def run(xs: Int*): Unit =
-        println(s"The sum is ${xs.sum}")*/
 }
