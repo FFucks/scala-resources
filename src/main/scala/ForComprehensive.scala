@@ -21,6 +21,20 @@ object ForComprehensive {
         pairs
     }
 
+    val noComprehensive =
+        for (n <- List(1, 2, 3)) {
+            n * 2
+        }
+
+    val comprehensive =
+        for (n <- List(1, 2, 3))
+            yield n * 2
+
+    // First For turns the second For into a comprehension
+    /*
+    for (x <- list) println(x)
+    list.foreach(x => println(x))*/
+
 
     /*@main def runMultiply(): Unit =
         println(multiply())*/
